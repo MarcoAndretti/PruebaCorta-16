@@ -1,4 +1,4 @@
-#include <iostream>
+/*#include <iostream>
 using namespace std;
 int main() {
 
@@ -44,6 +44,17 @@ int main (){
     while(i<=10){
         std::cout <<i<< "\n";
         i++;
+    }
+    getch();
+    return 0;
+}*/
+
+#include <iostream>
+#include <conio.h>
+int main (){
+    int i;
+    for(i=10; i>=1; i--){
+        std::cout << i << "\n";
     }
     getch();
     return 0;
