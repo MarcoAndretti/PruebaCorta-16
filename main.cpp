@@ -47,9 +47,9 @@ int main (){
     }
     getch();
     return 0;
-}*/
+}
 
-/*#include <iostream>
+#include <iostream>
 #include <conio.h>
 int main (){
     int i;
@@ -58,8 +58,8 @@ int main (){
     }
     getch();
     return 0;
-}*/
-/*#include <iostream>
+}
+#include <iostream>
 
 int main() {
     int numero;
@@ -74,9 +74,9 @@ int main() {
     }
 
     return 0;
-}*/
+}
 
-/*#include <iostream>
+#include <iostream>
 int main (){
     int suma = 0, cuadrado;
 
@@ -88,7 +88,7 @@ int main (){
 
     return 0;
 
-}*/
+}
 #include <iostream>
 int main() {
     int numero, suma = 0;
@@ -105,5 +105,19 @@ int main() {
     std::cout << "\n La suma es: " << suma << std::endl;
 
     return 0;
-}
-2
+}*/
+#include <iostream>
+int main (){
+    int n, suma = 0;
+
+    std::cout <<"Digite el numero de elementos: ";
+    std::cin >> n;
+
+    for (int i=1; i<=n;i++){
+        suma += i;
+    }
+    std::cout << "\n La suma es: " << suma << std::endl;
+
+    return 0;
+
+} 
