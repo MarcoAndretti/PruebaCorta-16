@@ -138,7 +138,7 @@ int main(){
 
     return 0;
 
-}*/
+}*
 
 #include <iostream>
 #include <cmath>
@@ -157,4 +157,27 @@ int main() {
     std::cout << "\nLa suma total es: " << suma << std::endl;
 
     return 0;
+}*/
+
+#include <iostream>
+
+int main() {
+    int n, x = 0, y = 1;
+
+    std::cout << "Digite el numero de elementos: ";
+    std::cin >> n;
+
+    std::cout << "1 ";
+    for (int i = 1; i < n; ++i) {
+        int z = x + y;
+        std::cout << z << " ";
+        x = y;
+        y = z;
+    }
+    std::cout << "\n";
+
+    return 0;
 }
+
+
+
