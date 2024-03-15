@@ -49,7 +49,7 @@ int main (){
     return 0;
 }*/
 
-#include <iostream>
+/*#include <iostream>
 #include <conio.h>
 int main (){
     int i;
@@ -58,4 +58,21 @@ int main (){
     }
     getch();
     return 0;
+}*/
+#include <iostream>
+
+int main() {
+    int numero;
+
+    do {
+        std::cout << "Digite un numero";
+        std::cin >> numero;
+    } while (numero < 1 || numero > 10);
+
+    for (int i = 1; i <= 20; i++) {
+        std::cout << numero << " * " << i << " = " << numero * i << std::endl;
+    }
+
+    return 0;
 }
+
