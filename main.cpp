@@ -105,7 +105,7 @@ int main() {
     std::cout << "\n La suma es: " << suma << std::endl;
 
     return 0;
-}*/
+}
 #include <iostream>
 int main (){
     int n, suma = 0;
@@ -120,4 +120,22 @@ int main (){
 
     return 0;
 
-} 
+}*/
+
+#include <iostream>
+int main(){
+    int numero, factorial = 1;
+
+    std::cout << "digite un numero: ";
+    std::cin >> numero;
+
+    for (int i = 1; i <=numero ; i++) {
+        factorial = factorial * i;
+
+    }
+
+    std::cout << "\n El factorial del numero es: " <<factorial<<std::endl;
+
+    return 0;
+
+}
