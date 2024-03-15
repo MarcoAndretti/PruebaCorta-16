@@ -31,7 +31,20 @@ cin >> opc;
                 cout << "cuanto dinero tienes en tu cuenta: " <<  saldo;
             }
         case 3: break;
+
+
+
     }
 
+#include <iostream>
+#include <conio.h>
+int main (){
+    int i;
+    i=1;
+    while(i<=10){
+        std::cout <<i<< "\n";
+        i++;
+    }
+    getch();
     return 0;
 }
