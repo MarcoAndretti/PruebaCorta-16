@@ -59,7 +59,7 @@ int main (){
     getch();
     return 0;
 }*/
-#include <iostream>
+/*#include <iostream>
 
 int main() {
     int numero;
@@ -74,5 +74,18 @@ int main() {
     }
 
     return 0;
-}
+}*/
 
+#include <iostream>
+int main (){
+    int suma = 0, cuadrado;
+
+    for (int i=1;i<=10;i++){
+        cuadrado = i * i;
+        suma += cuadrado; //suma = suma + cuadrado
+    }
+    std::cout << "El resultado de la suma es: "<<suma << std::endl;
+
+    return 0;
+
+}
