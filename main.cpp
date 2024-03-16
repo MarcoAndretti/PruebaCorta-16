@@ -177,7 +177,7 @@ int main() {
     std::cout << "\n";
 
     return 0;
-}*/
+}
 
 #include <iostream>
 #include <cstdlib>
@@ -206,6 +206,22 @@ int main() {
     std::cout << "\n FELICIDADES ADIVINASTE EL NUMERO! \n";
     std::cout << "Numero de intentos: " << contador << std::endl;
 
+    return 0;
+}*/
+
+#include <iostream>
+#include <conio.h>
+int main (){
+
+    int numeros [] = {1,2,3,4,5};
+    int suma = 0;
+
+    for (int i=0; i<5;i++){
+        suma += numeros [i];
+    }
+    std::cout << "La suma de los elementos del vector es: " << suma << std::endl;
+
+    getch();
     return 0;
 }
 
