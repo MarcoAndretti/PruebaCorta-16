@@ -157,7 +157,7 @@ int main() {
     std::cout << "\nLa suma total es: " << suma << std::endl;
 
     return 0;
-}*/
+}
 
 #include <iostream>
 
@@ -177,7 +177,38 @@ int main() {
     std::cout << "\n";
 
     return 0;
+}*/
+
+#include <iostream>
+#include <cstdlib>
+#include <ctime>
+
+int main() {
+    int numero, dato, contador = 0;
+
+    srand(time(NULL)); // GENERAR NUMERO ALEATORIO
+    dato = 1 + rand() % 100; // Generar un número aleatorio entre 1 y 100
+
+    do {
+        std::cout << "Digite un numero: ";
+        std::cin >> numero;
+
+        if (numero > dato) {
+            std::cout << "\nDigite un numero menor.\n";
+        }
+        else if (numero < dato) {
+            std::cout << "\nDigite un numero mayor.\n";
+        }
+
+        contador++;
+    } while (numero != dato);
+
+    std::cout << "\n FELICIDADES ADIVINASTE EL NUMERO! \n";
+    std::cout << "Numero de intentos: " << contador << std::endl;
+
+    return 0;
 }
+
 
 
 
