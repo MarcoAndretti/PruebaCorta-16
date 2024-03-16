@@ -207,7 +207,7 @@ int main() {
     std::cout << "Numero de intentos: " << contador << std::endl;
 
     return 0;
-}*/
+}
 
 #include <iostream>
 #include <conio.h>
@@ -221,6 +221,27 @@ int main (){
     }
     std::cout << "La suma de los elementos del vector es: " << suma << std::endl;
 
+    getch();
+    return 0;
+}*/
+
+#include <iostream>
+#include <conio.h>
+int main (){
+    int numeros [100],n;
+
+    std::cout << "Digite el numero de elementos que va a tener el arreglo: ";
+    std::cin >> n;
+
+    for (int i=0;i<n;i++){
+        std::cout << "Digite un numero: ";
+        std::cin >> numeros [i]; //GUARDANDO TODOS LOS ELEMENTOS DEL VECTOR
+    }
+
+    //AHORA VAMOS A MOSTRAR LOS ELEMENTOS CON SUS INDICES ASOCIADOS
+    for (int i = 0; i < n; i++) {
+        std::cout << i << "->"<<numeros [i];
+    }
     getch();
     return 0;
 }
